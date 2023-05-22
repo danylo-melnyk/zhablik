@@ -1,7 +1,3 @@
-import { Box } from '@mui/material';
+import HomePage from '@/components/pages/home-page';
 
-const LOL = () => {
-  return <Box>LOL</Box>;
-};
-
-export default LOL;
+export default HomePage;
