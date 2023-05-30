@@ -1,3 +1,12 @@
-import SchedulePage from '@/components/pages/schedule-page';
+import Page from '@/components/common/layout/page';
+import DevPage from '@/components/pages/dev-page';
 
-export default SchedulePage;
+const Schedule = () => {
+  return (
+    <Page hasHeader>
+      <DevPage />
+    </Page>
+  );
+};
+
+export default Schedule;
